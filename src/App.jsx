@@ -1,8 +1,9 @@
-import '../css/styles.css'
+import '../css/labReports.css'
 import React, { useState } from 'react';
 
-import MainSectionLW1 from './labworks/first/lw1'
+import MainSectionLW1 from './labworks/lw1/lw1'
 import { Header } from './Header';
+import { InfoSection } from './infosection';
 import { Navigation } from './labworks/navigation';
 
 
@@ -31,10 +32,15 @@ const Viewport = ({ currentArticleId }) => {
   }
 
   return (
-    <>
-      {LabworksComponent && (<LabworksComponent />)}
-    </>
+    <div className="content">
+      <div className="contentGrid">
+        {LabworksComponent && (<LabworksComponent />)}
+        <InfoSection />
+      </div>
+    </div>
+    
   );
 }
+
 
 export {App}

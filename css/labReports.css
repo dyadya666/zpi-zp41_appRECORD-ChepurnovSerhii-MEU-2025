@@ -1,0 +1,142 @@
+.container {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px 14px;
+}
+
+.header {
+  background-color: rgba(0, 122, 255, 0.15);
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  padding-left: 80px;
+  gap: 40px 100px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  flex-wrap: nowrap;
+  font: 20px Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.titleSection {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.mainTitle {
+  font-weight: 700;
+  align-self: center;
+}
+
+.subtitle {
+  font-weight: 400;
+}
+
+.studentInfo {
+  font-weight: 400;
+  margin-top: 18px;
+}
+
+.profileImage {
+  aspect-ratio: 0.77;
+  object-fit: contain;
+  object-position: right;
+  width: 96px;
+}
+
+.labNav {
+  background-color: rgba(249, 242, 193, 1);
+  padding: 21px 70px;
+}
+
+.labButtons {
+  display: inline-flex;
+  margin-left: 65px;
+  width: 100%;
+  max-width: fit-content;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content {
+  width: auto;
+  max-width: 100%;
+}
+
+.contentGrid {
+  gap: 20px;
+  display: flex;
+}
+
+.mainContent {
+  background-color: rgba(241, 255, 242, 1);
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: start;
+  width: 40%;
+  padding: 48px 65px 94px;
+}
+
+.sidebar {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.outputArea {
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-top: 24px;
+  font: 400 20px Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding-left: 20px;
+  }
+
+  .titleSection {
+    max-width: 100%;
+  }
+
+  .mainTitle {
+    max-width: 100%;
+  }
+
+  .studentInfo {
+    max-width: 100%;
+  }
+
+  .labNav {
+    padding: 21px 20px;
+  }
+
+  .labButtons {
+    max-width: 100%;
+  }
+
+  .contentGrid {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .mainContent {
+    width: 100%;
+    margin-top: 40px;
+    padding: 48px 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .outputArea {
+    margin-top: 40px;
+  }
+}
