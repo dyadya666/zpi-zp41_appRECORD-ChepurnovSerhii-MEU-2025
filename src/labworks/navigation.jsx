@@ -12,16 +12,22 @@ export const Navigation = ({ onLabworkChange }) => {
       <nav className="labNav">
         <ul className="labButtons">
           <li type="none">
-            <button data-labworkid="LW1" onClick={callback} className="labButton">Лабораторна робота №1</button>
+            <button data-labworkid="LW1" onClick={callback} className="labButton">Лабораторна робота №1.1</button>
+          </li>
+          <li type="none">
+            <button data-labworkid="LW1" onClick={callback} className="labButton">Лабораторна робота №1.2</button>
+          </li>
+          <li type="none">
+            <button data-labworkid='LW2' onClick={callback} className="labButton">Лабораторна робота №2.1</button>
             </li>
           <li type="none">
-            <button data-labworkid='LW2' onClick={callback} className="labButton">Лабораторна робота №2</button>
+            <button data-labworkid='LW2' onClick={callback} className="labButton">Лабораторна робота №2.2</button>
+          </li>
+          <li type="none">
+            <button data-labworkid='LW4' onClick={callback} className="labButton">Лабораторна робота №3.1</button>
             </li>
           <li type="none">
-            <button data-labworkid='LW4' onClick={callback} className="labButton">Лабораторна робота №4</button>
-            </li>
-          <li type="none">
-            <button data-labworkid='LW3' onClick={callback} className="labButton">Лабораторна робота №3</button>
+            <button data-labworkid='LW3' onClick={callback} className="labButton">Лабораторна робота №3.2</button>
             </li>
         </ul>
       </nav>
