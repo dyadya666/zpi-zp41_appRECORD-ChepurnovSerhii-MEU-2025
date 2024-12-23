@@ -1,45 +1,30 @@
 import '../css/labReports.css'
 import React, { useState } from 'react';
 
-import MainSectionLW1 from './labworks/lw1/lw1'
 import { Header } from './Header';
-import { InfoSection } from './infosection';
 import { Navigation } from './labworks/navigation';
+import { Viewport } from './vewport';
 
 
 function App() {
   const [selectedId, setSelectedId] = useState('LW1');
+  const [descriptionId, setDescriptionId] = useState('describe');
 
   const labworkCallbaclk = (id) => {
     setSelectedId(id);
+  }
+
+  const descriptionCallbaclk = (id) => {
+    setDescriptionId(id);
   }
 
   return (
     <>
       <Header />
       <Navigation onLabworkChange={labworkCallbaclk} />
-      <Viewport currentArticleId={selectedId} />
+      <Viewport onDescriptionChange={descriptionCallbaclk} currentLabWorkId={selectedId} currentDescriptionId={descriptionId} />
     </>
   )
-}
-
-
-const Viewport = ({ currentArticleId }) => {
-  let LabworksComponent = null;
-
-  if (currentArticleId === 'LW1') {
-    LabworksComponent = MainSectionLW1;
-  }
-
-  return (
-    <div className="content">
-      <div className="contentGrid">
-        {LabworksComponent && (<LabworksComponent />)}
-        <InfoSection />
-      </div>
-    </div>
-    
-  );
 }
 
 

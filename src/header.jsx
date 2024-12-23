@@ -6,9 +6,9 @@ export const Header = () => {
       <div className="titleSection">
         <h1 className="mainTitle">
           ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ
-          <span className="subtitle">
+          <p className="subtitle">
             З ДИСЦИПЛІНИ "ПРОЕКТУВАННЯ WEB-ЗАСТОСУВАНЬ"
-          </span>
+          </p>
         </h1>
         <p className="studentInfo">
           Студент групи ЗПІ-зп41 2024-2025 Чепурнов Сергій Олександрович

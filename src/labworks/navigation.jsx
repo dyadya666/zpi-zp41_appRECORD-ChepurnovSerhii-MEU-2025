@@ -4,7 +4,6 @@ import '../../css/labReports.css'
 
 export const Navigation = ({ onLabworkChange }) => {
     const callback = (event) => {
-        console.log(event.target.dataset)
         const id = event.target.dataset.labworkid;
         onLabworkChange(id);
     }
