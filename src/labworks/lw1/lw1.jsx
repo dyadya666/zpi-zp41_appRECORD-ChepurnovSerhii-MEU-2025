@@ -1,5 +1,7 @@
+import React from 'react';
 import '../../../css/labReports.css'
-import '../../../css/navigationItem.css'
+
+import { NavigationItem } from '../../navigationItem';
 
 
 export default function MainSectionLW1({ onDescribeChange }) {
@@ -8,16 +10,27 @@ export default function MainSectionLW1({ onDescribeChange }) {
     onDescribeChange(id);
   }
 
+  const navigationItems = [
+    {infoid: "describe", text: 'Опис предметного середовища', variant: 'primary' },
+    {infoid: "goal", text: 'Тема Мета Місце розташування Лабораторної роботи №1', variant: 'primary' },
+    {infoid: "structure", text: 'СТРУКТУРА ДОКУМЕНТА', variant: 'primary' },
+    {infoid: "code1", text: 'HTML-код ТАБЛИЦЬ', variant: 'secondary' },
+    {infoid: "code2", text: 'HTML-код ФОРМИ', variant: 'secondary' },
+    {infoid: "code3", text: 'HTML-код ЗОБРАЖЕННЯ', variant: 'secondary' },
+    {infoid: "conclusions", text: 'Висновки', variant: 'primary' }
+  ];
 
   return (
     <section className="mainContent">
-      <button data-infoid="describe" onClick={getId} className="navItem primary">Опис предметного середовища</button>
-      <button data-infoid="goal" onClick={getId} className="navItem primary">Тема Мета Місце розташування Лабораторної роботи №1</button>
-      <button data-infoid="structure" onClick={getId} className="navItem primary">СТРУКТУРА ДОКУМЕНТА</button>
-        <button data-infoid="code1" onClick={getId} className="navItem secondary">HTML-код ТАБЛИЦЬ</button>
-        <button data-infoid="code2" onClick={getId} className="navItem secondary">HTML-код ФОРМИ</button>
-        <button data-infoid="code3" onClick={getId} className="navItem secondary">HTML-код ЗОБРАЖЕННЯ</button>
-      <button data-infoid="conclusions" onClick={getId} className="navItem primary">Висновки</button>
+      {navigationItems.map((item, idx) => (
+        <NavigationItem
+          key={idx}
+          infoid={item.infoid}
+          onclick={getId}
+          variant={item.variant}
+          text={item.text}
+        />
+      ))}
     </section>
   )
 }
