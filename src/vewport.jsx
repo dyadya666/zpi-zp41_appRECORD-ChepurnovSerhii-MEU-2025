@@ -7,7 +7,7 @@ export const Viewport = ({ onDescriptionChange, currentLabWorkId,  currentDescri
     let LabworksComponent = null;
     let DescriptionComponent = null;
      
-    if (currentLabWorkId === 'LW1') {
+    if (currentLabWorkId === 'LW11') {
       LabworksComponent = MainSectionLW1;
       DescriptionComponent = GetDescription;
     }

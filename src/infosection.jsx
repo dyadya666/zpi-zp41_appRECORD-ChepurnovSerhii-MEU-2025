@@ -4,7 +4,7 @@ import { descriptionDictLW1 } from './labworks/lw1/description';
 
 
 export const descriptionDict = {
-  'LW1': descriptionDictLW1
+  'LW11': descriptionDictLW1
 }
 
 
@@ -17,7 +17,7 @@ const InfoSection = ({ text }) => {
   }
 
 
-export const GetDescription = ({ descDict, descKey}) => {
+export const GetDescription = ({ descDict, descKey }) => {
   const text = descDict !== 'underfined' ? descDict[descKey] : '';
   return (
     <InfoSection text={text} />
