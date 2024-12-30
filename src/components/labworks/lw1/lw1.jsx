@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../css/labReports.css'
+import '../../../styles/labReports.css'
 
 import { NavigationItem } from '../../navigationItem';
 

@@ -1,6 +1,5 @@
 import React from 'react';
-import '../css/navigationItem.css';
-// import styles from '../css/navigationItem.css';
+import '../styles/navigationItem.css';
 
 
 export const NavigationItem = ({ text, infoid, onclick, variant = 'primary' }) => {

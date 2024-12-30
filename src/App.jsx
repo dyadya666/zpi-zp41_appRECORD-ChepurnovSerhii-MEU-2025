@@ -1,9 +1,9 @@
-import '../css/labReports.css'
+import './styles/labReports.css'
 import React, { useState } from 'react';
 
-import { Header } from './Header';
-import { Navigation } from './labworks/navigation';
-import { Viewport } from './vewport';
+import { Header } from './components/header';
+import { Navigation } from './components/labworks/navigation';
+import { Viewport } from './components/vewport';
 
 
 function App() {

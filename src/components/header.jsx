@@ -1,4 +1,5 @@
-import '../css/labReports.css'
+import '../styles/labReports.css'
+import myphoto from '../assets/images/photo.JPG'
 
 export const Header = () => {
   return (
@@ -14,7 +15,7 @@ export const Header = () => {
           Студент групи ЗПІ-зп41 2024-2025 Чепурнов Сергій Олександрович
         </p>
       </div>
-      <img loading="lazy" src="./images/photo.JPG" className="profileImage" alt="Фото студента Чепурнова Сергія Олександровича" />
+      <img loading="lazy" src={myphoto} className="profileImage" alt="Фото студента Чепурнова Сергія Олександровича" />
     </header>
   )
 }

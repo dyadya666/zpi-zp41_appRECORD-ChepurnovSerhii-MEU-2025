@@ -1,5 +1,5 @@
-import '../../css/labButton.css'
-import '../../css/labReports.css'
+import '../../styles/labButton.css'
+import '../../styles/labReports.css'
 
 
 export const Navigation = ({ onLabworkChange }) => {

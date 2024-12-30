@@ -1,4 +1,4 @@
-import '../css/labReports.css'
+import '../styles/labReports.css'
 
 import { descriptionDictLW1 } from './labworks/lw1/description';
 
