@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/css/main.3b4e4639.css",
+    "main.js": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.c8f81d21.js",
+    "static/media/photo.JPG": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/photo.4be27c19d60ad091e4d6.JPG",
+    "index.html": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/index.html",
+    "main.3b4e4639.css.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/css/main.3b4e4639.css.map",
+    "main.c8f81d21.js.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.c8f81d21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b4e4639.css",
+    "static/js/main.c8f81d21.js"
+  ]
+}
