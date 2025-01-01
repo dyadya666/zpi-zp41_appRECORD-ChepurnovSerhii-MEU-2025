@@ -79,7 +79,7 @@
   flex-direction: column;
   overflow: hidden;
   align-items: start;
-  width: 40%;
+  width: 500px;
   padding: 48px 65px 94px;
 }
 
@@ -90,9 +90,14 @@
 
 .outputArea {
   color: rgba(0, 0, 0, 1);
-  text-align: center;
+  /* width: fit-content; */
+  text-align: left;
   margin-top: 24px;
   font: 400 20px Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+ul.listLw1 {
+  list-style-type: '-';
 }
 
 @media (max-width: 991px) {
