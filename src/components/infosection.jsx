@@ -1,10 +1,12 @@
 import '../styles/labReports.css'
 
 import { descriptionDictLW1 } from './labworks/lw1/description';
+import { descriptionDictLW12 } from './labworks/lw12/description';
 
 
 export const descriptionDict = {
-  'LW11': descriptionDictLW1
+  'LW11': descriptionDictLW1,
+  'LW12': descriptionDictLW12
 }
 
 
