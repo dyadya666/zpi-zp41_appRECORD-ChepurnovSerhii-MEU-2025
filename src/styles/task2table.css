@@ -1,0 +1,162 @@
+/*---------FIXED---------*/
+.t2Fixed {
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .t2Table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+  }
+  
+  .t2HeaderRow, .t2FooterRow {
+    height: 100px; /* Фіксована висота для header і footer */
+  }
+  
+  .t2HeaderFixedTable {
+    background-color: yellow;
+    position: relative;
+  }
+  
+  .inHeaderFixedTable {
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .t2MainRow {
+    height: calc(100% - 200px); /* Висота з урахуванням висоти header і footer */
+  }
+  
+  .t2NavigationFixedTable {
+    background-color: blue;
+    width: 25%; /* Фіксована ширина для навігації */
+    height: 100%;
+  }
+  
+  .t2ContentFixedTable {
+    background-color: white;
+    width: 75%; /* Фіксована ширина для контенту */
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .t2ContentRedFixedTable {
+    background-color: red;
+    height: 20%;
+    margin: 15px 15px 0;
+  }
+  
+  .t2ContentSecondFixedTable {
+    display: flex;
+    padding: 15px 15px 0;
+    height: calc(80% - 30px); /* Висота з урахуванням padding */
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  
+  .t2ContentWhiteFixedTable {
+    background-color: antiquewhite;
+    width: 58%;
+    height: 100%;
+  }
+  
+  .t2ContentBlueFixedTable {
+    background-color: blue;
+    width: 40%;
+    height: 100%;
+  }
+  
+  .t2FooterFixedTable {
+    background-color: yellow;
+    position: relative;
+  }
+
+
+/*---------FLEX---------*/
+.t2Flex {
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .t2TableFlex {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+  }
+  
+  .t2HeaderRowFlex, .t2FooterRowFlex {
+    height: 10%; /* Використовуємо відсоток для висоти header і footer */
+  }
+  
+  .t2HeaderFlexTable {
+    background-color: yellow;
+    position: relative;
+  }
+  
+  .inHeaderFlexTable {
+    background-color: white;
+    width: 40%; /* Використовуємо відсоток */
+    height: 50%; /* Використовуємо відсоток */
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .t2MainRowFlex {
+    height: 80%; /* Використовуємо відсоток для висоти основного контенту */
+  }
+  
+  .t2NavigationFlexTable {
+    background-color: blue;
+    width: 25%; /* Використовуємо відсоток для ширини навігації */
+    height: 100%;
+  }
+  
+  .t2ContentFlexTable {
+    background-color: white;
+    width: 75%; /* Використовуємо відсоток для ширини контенту */
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .t2ContentRedFlexTable {
+    background-color: red;
+    height: 20%;
+    margin: 1.5% 1.5% 0; /* Використовуємо відсотки для margin */
+  }
+  
+  .t2ContentSecondFlexTable {
+    display: flex;
+    padding: 1.5% 1.5% 0; /* Використовуємо відсотки для padding */
+    height: calc(80% - 3%); /* Використовуємо відсотки для висоти */
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  
+  .t2ContentWhiteFlexTable {
+    background-color: antiquewhite;
+    width: 58%; /* Використовуємо відсотки для ширини */
+    height: 100%;
+  }
+  
+  .t2ContentBlueFlexTable {
+    background-color: blue;
+    width: 40%; /* Використовуємо відсотки для ширини */
+    height: 100%;
+  }
+  
+  .t2FooterFlexTable {
+    background-color: yellow;
+    height: 100%;
+    position: relative;
+  }
+  
