@@ -4,6 +4,13 @@ import '../../../styles/task2table.css'
 import * as rawCode from './rawCode.jsx';
 import imgVariant2 from '../../../assets/images/Variant2.png'
 import imgVariant3 from '../../../assets/images/Variant2plus1.png'
+import imgTask3 from '../../../assets/images/task3.png'
+import imgT3header from '../../../assets/images/t3header.png'
+import imgT3nav from '../../../assets/images/t3nav.png'
+import imgT3block1 from '../../../assets/images/t3block1.png'
+import imgT3block2 from '../../../assets/images/t3block2.png'
+import imgT3block3 from '../../../assets/images/t3block3.png'
+import imgT3footer from '../../../assets/images/t3footer.png'
 
 
 
@@ -51,6 +58,16 @@ const Task2 = () => {
             <h2>Варіант 3</h2>
             <h3>Гумова верстка.</h3>
             <img style={{width:'500px'}} src={imgVariant3} alt="Variant 2" />
+        </>
+    );
+}
+
+const Task3 = () => {
+    return (
+        <>
+            <h2>Варіант 2</h2>
+            <h3>Виконати макет сайту за технологією FLEXBOX та засобами CSS.</h3>
+            <img style={{width:'700px'}} src={imgTask3} alt="Task 3" />
         </>
     );
 }
@@ -159,6 +176,42 @@ const FlexBlock = () => {
     );
 }
 
+const Flex1 = () => {
+    return (
+        <div className="t3">
+        <div className="t3Header">
+            <img style={{width:'100%'}} src={imgT3header} alt="Header" />
+            <img style={{width:'100%'}} src={imgT3nav} alt="Navigation" />
+        </div>
+        <div className="t3MainSection">
+            <img style={{width:'100%'}} src={imgT3block1} alt="Block1" />
+            <img style={{width:'100%'}} src={imgT3block2} alt="Block2" />
+            <img style={{width:'100%'}} src={imgT3block3} alt="Block3" />
+        </div>
+        <div className="t3Footer"></div>
+            <img style={{width:'100%'}} src={imgT3footer} alt="Footer" />
+        </div>
+    );
+}
+
+const Flex2 = () => {
+    return (
+        <>
+        <h4>HTML-код (Flexbox)</h4>
+        <pre>{rawCode.rawHTMLflex}</pre>
+        </>
+    );
+}
+
+const Flex3 = () => {
+    return (
+        <>
+        <h4>CSS-код (Flexbox)</h4>
+        <pre>{rawCode.rawCSSflex}</pre>
+        </>
+    );
+}
+
 const Conclusions = () => {
     return (
         <>
@@ -176,10 +229,10 @@ export const descriptionDictLW21 = {
     'flex_table': <FlexTable />,
     'fixed_block': <FixedBlock />,
     'flex_block': <FlexBlock />,
-    'task3': 'ЗАВДАННЯ №3 FLEXBOX',
-    'flex1': 'Скріншот сторінки (Flexbox)',
-    'flex2': 'HTML-код (Flexbox)',
-    'flex3': 'CSS-код (Flexbox)',
+    'task3': <Task3 />,
+    'flex1': <Flex1 />,
+    'flex2': <Flex2 />,
+    'flex3': <Flex3 />,
     'conclusions': <Conclusions />
 }
 

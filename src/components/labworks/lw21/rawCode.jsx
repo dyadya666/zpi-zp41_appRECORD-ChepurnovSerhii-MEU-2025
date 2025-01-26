@@ -129,4 +129,51 @@ export const Navigation = ({ onLabworkChange }) => {
   }
 `
 
-export {rawClassCss, rawOthers, rawFonts, rawCssList, rawJsList}
+const rawHTMLflex = `
+<div className="t3">
+<div className="t3Header">
+    <img style={{width:'100%'}} src={imgT3header} alt="Header" />
+    <img style={{width:'100%'}} src={imgT3nav} alt="Navigation" />
+</div>
+<div className="t3MainSection">
+    <img style={{width:'100%'}} src={imgT3block1} alt="Block1" />
+    <img style={{width:'100%'}} src={imgT3block2} alt="Block2" />
+    <img style={{width:'100%'}} src={imgT3block3} alt="Block3" />
+</div>
+<div className="t3Footer"></div>
+    <img style={{width:'100%'}} src={imgT3footer} alt="Footer" />
+</div>
+`
+
+const rawCSSflex = `
+.t3 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  
+  .t3Header {
+    width: 100%;
+    height: 10%;
+    padding: 2%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .t3MainSection {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    position: relative;
+  }
+  
+  .t3Footer {
+    width: 100%;
+    height: 10%;
+    position: relative;
+  }
+`
+
+export {rawClassCss, rawOthers, rawFonts, rawCssList, rawJsList, rawHTMLflex, rawCSSflex}
