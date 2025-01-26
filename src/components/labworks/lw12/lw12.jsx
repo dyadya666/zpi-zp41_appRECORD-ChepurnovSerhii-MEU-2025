@@ -19,7 +19,7 @@ export default function MainSectionLW12({ onDescribeChange }) {
     {infoid: "independent", text: 'Самостійна робота №2', variant: 'primary' },
     {infoid: "font1", text: 'Шрифт.', variant: 'secondary' },
     {infoid: "font2", text: 'CSS: Таблиці. Фон. Списки.', variant: 'secondary' },
-    {infoid: "font3", text: 'CSS просунутий', variant: 'secondary' },
+    // {infoid: "font3", text: 'CSS просунутий', variant: 'secondary' },
     {infoid: "conclusions", text: 'Висновки', variant: 'primary' }
   ];
 
