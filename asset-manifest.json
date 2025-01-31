@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/css/main.b2da0a09.css",
-    "main.js": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.0f395f5f.js",
+    "main.css": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/css/main.e09925cc.css",
+    "main.js": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.abceb306.js",
     "static/media/imageCode.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/imageCode.0c6b9acd03174d42adad.png",
     "static/media/classSelector.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/classSelector.54701944f89b35eaf5e8.png",
     "static/media/task3.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/task3.918278b5be1ea0a2be92.png",
@@ -13,11 +13,11 @@
     "static/media/t3nav.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/t3nav.3ab5efe315fbaee252b8.png",
     "static/media/t3header.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/t3header.cc17d6e53f945443895c.png",
     "index.html": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/index.html",
-    "main.b2da0a09.css.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/css/main.b2da0a09.css.map",
-    "main.0f395f5f.js.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.0f395f5f.js.map"
+    "main.e09925cc.css.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/css/main.e09925cc.css.map",
+    "main.abceb306.js.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.abceb306.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2da0a09.css",
-    "static/js/main.0f395f5f.js"
+    "static/css/main.e09925cc.css",
+    "static/js/main.abceb306.js"
   ]
 }
