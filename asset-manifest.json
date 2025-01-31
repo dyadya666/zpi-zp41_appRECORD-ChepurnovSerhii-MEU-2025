@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/css/main.9ecbd996.css",
-    "main.js": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.e4882767.js",
+    "main.js": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.f5e7ee5c.js",
     "static/media/imageCode.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/imageCode.0c6b9acd03174d42adad.png",
     "static/media/classSelector.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/classSelector.54701944f89b35eaf5e8.png",
     "static/media/task3.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/task3.918278b5be1ea0a2be92.png",
@@ -14,10 +14,10 @@
     "static/media/t3header.png": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/media/t3header.cc17d6e53f945443895c.png",
     "index.html": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/index.html",
     "main.9ecbd996.css.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/css/main.9ecbd996.css.map",
-    "main.e4882767.js.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.e4882767.js.map"
+    "main.f5e7ee5c.js.map": "/zpi-zp41_appRECORD-ChepurnovSerhii-MEU-2025/static/js/main.f5e7ee5c.js.map"
   },
   "entrypoints": [
     "static/css/main.9ecbd996.css",
-    "static/js/main.e4882767.js"
+    "static/js/main.f5e7ee5c.js"
   ]
 }
