@@ -101,7 +101,6 @@
 
 .outputArea {
   color: rgba(0, 0, 0, 1);
-  /* width: fit-content; */
   text-align: left;
   margin-top: 24px;
   font: 400 20px Times New Roman, -apple-system, Roboto, Helvetica, sans-serif;
@@ -111,48 +110,142 @@ ul.listLw1 {
   list-style-type: '-';
 }
 
-@media (max-width: 991px) {
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 30px 20px;
+  }
+
   .header {
-    padding-left: 20px;
+    padding: 15px;
+  }
+
+  .outputArea {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .container {
+    padding: 15px 10px;
+  }
+
+  .header {
+    height: auto;
+    padding: 10px;
+    font-size: 18px;
   }
 
   .titleSection {
-    max-width: 100%;
+    width: 100%;
   }
 
   .mainTitle {
-    max-width: 100%;
+    font-size: 24px;
+    margin: 0.5%;
   }
 
-  .studentInfo {
-    max-width: 100%;
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .studentImg {
+    width: 15%;
+    height: auto;
+  }
+
+  .profileImage {
+    width: 60%;
   }
 
   .labNav {
-    padding: 21px 20px;
+    padding: 10px 15px;
+    height: auto;
   }
 
   .labButtons {
-    max-width: 100%;
+    gap: 15px;
   }
 
-  .contentGrid {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
+  .content {
+    padding: 20px;
   }
 
   .mainContent {
-    width: 100%;
-    margin-top: 40px;
-    padding: 48px 20px;
+    padding: 0;
   }
 
   .sidebar {
     width: 100%;
+    margin-left: 0;
   }
 
   .outputArea {
-    margin-top: 40px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px 5px;
+  }
+
+  .header {
+    height: auto;
+    padding: 8px;
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .titleSection {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .mainTitle {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .studentImg {
+    width: 20%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .profileImage {
+    width: 50%;
+  }
+
+  .labNav {
+    padding: 8px 10px;
+    height: auto;
+  }
+
+  .labButtons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .mainContent {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin: 0;
+  }
+
+  .outputArea {
+    font-size: 16px;
   }
 }

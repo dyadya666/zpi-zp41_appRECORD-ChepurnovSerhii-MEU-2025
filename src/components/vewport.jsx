@@ -3,6 +3,7 @@ import { GetDescription } from './infosection';
 import MainSectionLW1 from './labworks/lw1/lw1'
 import MainSectionLW12 from './labworks/lw12/lw12';
 import MainSectionLW21 from './labworks/lw21/lw21';
+import MainSectionLW22 from './labworks/lw22/lw22';
 
 
 export const Viewport = ({ onDescriptionChange, currentLabWorkId,  currentDescriptionId}) => {
@@ -21,6 +22,11 @@ export const Viewport = ({ onDescriptionChange, currentLabWorkId,  currentDescri
 
     if (currentLabWorkId === 'LW21') {
       LabworksComponent = MainSectionLW21;
+      DescriptionComponent = GetDescription;
+    }
+
+    if (currentLabWorkId === 'LW22') {
+      LabworksComponent = MainSectionLW22;
       DescriptionComponent = GetDescription;
     }
   
