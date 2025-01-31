@@ -10,9 +10,9 @@
   background-color: rgba(0, 122, 255, 0.15);
   display: flex;
   width: auto;
+  height: 10%;
   max-width: 100%;
-  padding-left: 80px;
-  gap: 40px 100px;
+  padding: 1%;
   overflow: hidden;
   color: rgba(0, 0, 0, 1);
   text-align: center;
@@ -22,39 +22,49 @@
 
 .titleSection {
   display: flex;
-  margin-top: 10px;
+  margin: 0;
   flex-direction: column;
+  width: 90%;
 }
 
 .mainTitle {
   font-weight: 700;
-  align-self: center;
+  text-align-last: center;
+  margin: 1%;
 }
 
 .subtitle {
   font-weight: 400;
+  margin: 0;
 }
 
+.studentImg {
+  width: 10%;
+  align-content: center;
+  height: 100%;
+}
 .studentInfo {
   font-weight: 400;
-  margin-top: 18px;
+  margin: 0;
 }
 
 .profileImage {
   aspect-ratio: 0.77;
   object-fit: contain;
   object-position: right;
-  width: 96px;
+  width: 70%;
 }
 
 .labNav {
   background-color: rgba(249, 242, 193, 1);
-  padding: 21px 70px;
+  padding: 1% 2%;
+  height: 10%;
 }
 
 .labButtons {
   display: inline-flex;
-  margin-left: 65px;
+  margin: 0;
+  padding: 0;
   width: 100%;
   max-width: fit-content;
   gap: 20px;
@@ -65,6 +75,7 @@
 .content {
   width: auto;
   max-width: 100%;
+  height: 80%;
 }
 
 .contentGrid {

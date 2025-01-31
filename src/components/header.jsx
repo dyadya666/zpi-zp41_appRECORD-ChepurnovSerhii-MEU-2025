@@ -15,7 +15,9 @@ export const Header = () => {
           Студент групи ЗПІ-зп41 2024-2025 Чепурнов Сергій Олександрович
         </p>
       </div>
+      <div className="studentImg">
       <img loading="lazy" src={myphoto} className="profileImage" alt="Фото студента Чепурнова Сергія Олександровича" />
+      </div>
     </header>
   )
 }
