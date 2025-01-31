@@ -74,6 +74,7 @@ const Task3 = () => {
 
 const FixedTable = () => {
     return (
+    <>
         <div class="t2Fixed">
         <table class="t2Table">
             <tr class="t2HeaderRow">
@@ -97,11 +98,19 @@ const FixedTable = () => {
         </table>
         </div>
 
+        <div>
+            <h4>HTML-код</h4>
+            <pre>{rawCode.rawTableFixed}</pre>
+            <h4>CSS-код</h4>
+            <pre>{rawCode.rawTableFixedCSS}</pre>
+        </div>
+    </>
     );
 }
 
 const FlexTable = () => {
     return (
+        <>
         <div class="t2Flex">
         <table class="t2TableFlex">
             <tr class="t2HeaderRowFlex">
@@ -125,11 +134,19 @@ const FlexTable = () => {
         </table>
         </div>
 
+        <div>
+            <h4>HTML-код</h4>
+            <pre>{rawCode.rawTableFlex}</pre>
+            <h4>CSS-код</h4>
+            <pre>{rawCode.rawTableFlexCSS}</pre>
+        </div>
+        </>
     );
 }
 
 const FixedBlock = () => {
     return (
+        <>
         <div className="t2Fixed">
         <div className="t2HeaderFixed">
             <div className="inHeaderFixed"></div>
@@ -149,11 +166,20 @@ const FixedBlock = () => {
         </div>
         <div className="t2FooterFixed"></div>
         </div>
+
+        <div>
+            <h4>HTML-код</h4>
+            <pre>{rawCode.rawBlockFixed}</pre>
+            <h4>CSS-код</h4>
+            <pre>{rawCode.rawBlockFixedCSS}</pre>
+        </div>
+        </>
     );
 }
 
 const FlexBlock = () => {
     return (
+        <>
         <div className="t2">
         <div className="t2Header">
             <div className="inHeader"></div>
@@ -173,6 +199,14 @@ const FlexBlock = () => {
         </div>
         <div className="t2Footer"></div>
         </div>
+
+    <div>
+        <h4>HTML-код</h4>
+        <pre>{rawCode.rawBlockFlex}</pre>
+        <h4>CSS-код</h4>
+        <pre>{rawCode.rawBlockFlexCSS}</pre>
+    </div>
+    </>
     );
 }
 
